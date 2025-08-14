@@ -157,8 +157,6 @@ class QuizGameNotifier extends Notifier<QuizGameState> {
   }
 
   void onGameCompleted() {
-    //answer current Question with null which means
-    //user failed to answer on time
     resetGame();
   }
 

@@ -75,7 +75,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                     AppButton.filled(
                       label: l10n.quizButton,
                       onPressed: () {
-                        context.push(Routes.quiz.p);
+                        context.pushNamed(Routes.quiz);
                       },
                       width: 0.4.sw,
                     ),

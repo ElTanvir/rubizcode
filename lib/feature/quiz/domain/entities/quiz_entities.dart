@@ -18,7 +18,6 @@ class Quiz extends Equatable {
 
   /// The question text (may contain LaTeX formatting)
   final String question;
-  //hello
 
   /// List of answer options (may contain LaTeX formatting)
   final List<String> options;

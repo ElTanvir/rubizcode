@@ -2,6 +2,9 @@
 
 A Flutter quiz application featuring mathematical questions with LaTeX rendering, leaderboards, and score tracking.
 
+## Note
+**This App Shows a unicorn as Splash screen because this project was originally genreated thorugh [very_good_cli](https://cli.vgv.dev/)**
+
 ## ⚠️ Disclaimer
 
 This code is submitted as a task for a job application. **Rubizcode is not authorized to use this code in production or for any commercial purposes without explicit written permission from the author.**
