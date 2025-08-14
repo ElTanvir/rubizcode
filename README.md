@@ -151,11 +151,11 @@ Built with Very Good Analysis for code quality and best practices.
     - [x] Nice‐to‐Have: 15 second timer for each question
     - [x] Nice‐to‐Have: Animations between question transitions
     - [ ] Nice‐to‐Have: Category selection before starting quiz
-    - [*] Nice‐to‐Have: Dark mode support
-    - [*] Nice‐to‐Have: Unit tests for score calculation
-    - [*] Nice‐to‐Have: Simple CI running flutter analyze and flutter test
-    - [*] Requirements: Works entirely offline
-    - [*] Requirements: Supports LaTeX rendering
-    - [*] Requirements: Data persists between app restarts
-    - [*] Requirements: Any state management solution is fine (riverpod for statemanagement and dependency injection)
-    - [*] Requirements: Clean, responsive UI (Used Neobrutalism Inspired design patterns)
+    - [x] Nice‐to‐Have: Dark mode support
+    - [x] Nice‐to‐Have: Unit tests for score calculation
+    - [x] Nice‐to‐Have: Simple CI running flutter analyze and flutter test
+    - [x] Requirements: Works entirely offline
+    - [x] Requirements: Supports LaTeX rendering
+    - [x] Requirements: Data persists between app restarts
+    - [x] Requirements: Any state management solution is fine (riverpod for statemanagement and dependency injection)
+    - [x] Requirements: Clean, responsive UI (Used Neobrutalism Inspired design patterns)
