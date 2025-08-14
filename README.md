@@ -2,7 +2,7 @@
 
 A Flutter quiz application featuring mathematical questions with LaTeX rendering, leaderboards, and score tracking.
 
-[⬇️ Download the latest APK](app.apk)
+[⬇️ Download the latest APK](app-production-release.apk)
 
 ## Note
 **This App Shows a unicorn as Splash screen because this project was originally genreated thorugh [very_good_cli](https://cli.vgv.dev/)**
