@@ -1,0 +1,15 @@
+{
+  "@@locale": "bn",
+  "appBarTitle": "কুইজ অ্যাপ",
+  "@appBarTitle": {
+    "description": "The title shown in the app bar"
+  },
+  "quizButton": "কুইজ শুরু করুন",
+  "@quizButton": {
+    "description": "Button text to start the quiz"
+  },
+  "leaderboardButton": "লিডারবোর্ড",
+  "@leaderboardButton": {
+    "description": "Button text to view the leaderboard"
+  }
+}

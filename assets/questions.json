@@ -1,0 +1,917 @@
+[
+  {
+    "question": "Evaluate the integral: $$ \\int_0^1 x^2 dx $$",
+    "options": ["$\\frac{1}{2}$", "$\\frac{1}{3}$", "$\\frac{2}{3}$", "$1$"],
+    "answer_index": 1
+  },
+  {
+    "question": "What is the derivative of $$ f(x) = x^3 + 2x^2 - 5x + 1 $$?",
+    "options": [
+      "$3x^2 + 4x - 5$",
+      "$x^4 + 2x^3 - 5x^2 + x$",
+      "$3x^2 + 2x - 5$",
+      "$3x^2 + 4x + 5$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "Solve for x: $$ 2x + 5 = 13 $$",
+    "options": ["$x = 4$", "$x = 9$", "$x = 3$", "$x = 6$"],
+    "answer_index": 0
+  },
+  {
+    "question": "What is the limit: $$ \\lim_{x \\to 0} \\frac{\\sin x}{x} $$?",
+    "options": ["$0$", "$1$", "$\\infty$", "undefined"],
+    "answer_index": 1
+  },
+  {
+    "question": "Find the area under the curve $$ y = x^2 $$ from $x = 0$ to $x = 2$:",
+    "options": ["$\\frac{8}{3}$", "$4$", "$\\frac{4}{3}$", "$2$"],
+    "answer_index": 0
+  },
+  {
+    "question": "What is the solution to the quadratic equation $$ x^2 - 5x + 6 = 0 $$?",
+    "options": ["$x = 2, 3$", "$x = 1, 6$", "$x = -2, -3$", "$x = 0, 5$"],
+    "answer_index": 0
+  },
+  {
+    "question": "Evaluate: $$ \\int e^x dx $$",
+    "options": [
+      "$e^x + C$",
+      "$xe^x + C$",
+      "$\\frac{e^x}{x} + C$",
+      "$e^{x+1} + C$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "What is the Taylor series expansion of $$ e^x $$ around $x = 0$?",
+    "options": [
+      "$\\sum_{n=0}^{\\infty} \\frac{x^n}{n!}$",
+      "$\\sum_{n=0}^{\\infty} \\frac{x^n}{n}$",
+      "$\\sum_{n=1}^{\\infty} \\frac{x^n}{n!}$",
+      "$\\sum_{n=0}^{\\infty} x^n$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "Find the determinant of the matrix: $$ \\begin{pmatrix} 2 & 3 \\\\ 1 & 4 \\end{pmatrix} $$",
+    "options": ["$5$", "$8$", "$11$", "$7$"],
+    "answer_index": 0
+  },
+  {
+    "question": "What is the partial derivative $$ \\frac{\\partial}{\\partial x}(x^2y + xy^2) $$?",
+    "options": ["$2xy + y^2$", "$x^2 + 2xy$", "$2xy + x^2$", "$y^2 + xy$"],
+    "answer_index": 0
+  },
+  {
+    "question": "Solve the differential equation: $$ \\frac{dy}{dx} = 2x $$",
+    "options": [
+      "$y = x^2 + C$",
+      "$y = 2x + C$",
+      "$y = x + C$",
+      "$y = \\frac{x^2}{2} + C$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "What is the Fourier transform of $$ f(t) = e^{-at} $$ for $t > 0$?",
+    "options": [
+      "$\\frac{1}{a + i\\omega}$",
+      "$\\frac{1}{a - i\\omega}$",
+      "$\\frac{a}{a^2 + \\omega^2}$",
+      "$\\frac{1}{a^2 + \\omega^2}$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "Find the eigenvalues of: $$ \\begin{pmatrix} 3 & 1 \\\\ 0 & 2 \\end{pmatrix} $$",
+    "options": [
+      "$\\lambda = 3, 2$",
+      "$\\lambda = 1, 5$",
+      "$\\lambda = 2, 4$",
+      "$\\lambda = 0, 3$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "What is Newton's second law of motion?",
+    "options": [
+      "$F = ma$",
+      "$F = \\frac{mv^2}{r}$",
+      "$F = \\frac{dp}{dt}$",
+      "Both A and C"
+    ],
+    "answer_index": 3
+  },
+  {
+    "question": "The kinetic energy formula is:",
+    "options": [
+      "$KE = \\frac{1}{2}mv^2$",
+      "$KE = mgh$",
+      "$KE = \\frac{mv^2}{2r}$",
+      "$KE = \\frac{p^2}{2m}$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "What is the formula for gravitational force?",
+    "options": [
+      "$F = G\\frac{m_1m_2}{r^2}$",
+      "$F = \\frac{kq_1q_2}{r^2}$",
+      "$F = ma$",
+      "$F = \\frac{mv^2}{r}$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "The wave equation is:",
+    "options": [
+      "$\\frac{\\partial^2 u}{\\partial t^2} = c^2 \\frac{\\partial^2 u}{\\partial x^2}$",
+      "$\\frac{\\partial u}{\\partial t} = c \\frac{\\partial u}{\\partial x}$",
+      "$u = A\\sin(kx - \\omega t)$",
+      "$\\nabla^2 u = 0$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "Ohm's law states:",
+    "options": ["$V = IR$", "$P = IV$", "$P = I^2R$", "$Q = CV$"],
+    "answer_index": 0
+  },
+  {
+    "question": "The formula for electric field is:",
+    "options": [
+      "$E = \\frac{F}{q}$",
+      "$E = \\frac{kQ}{r^2}$",
+      "$E = \\frac{V}{d}$",
+      "All of the above"
+    ],
+    "answer_index": 3
+  },
+  {
+    "question": "What is the Schrödinger equation?",
+    "options": [
+      "$i\\hbar\\frac{\\partial\\psi}{\\partial t} = \\hat{H}\\psi$",
+      "$E = mc^2$",
+      "$F = ma$",
+      "$\\nabla \\cdot E = \\frac{\\rho}{\\epsilon_0}$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "The formula for centripetal force is:",
+    "options": [
+      "$F_c = \\frac{mv^2}{r}$",
+      "$F_c = ma$",
+      "$F_c = \\frac{GMm}{r^2}$",
+      "$F_c = qvB$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "What is the formula for momentum?",
+    "options": [
+      "$p = mv$",
+      "$p = \\frac{mv^2}{2}$",
+      "$p = ma$",
+      "$p = \\frac{F}{a}$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "The ideal gas law is:",
+    "options": [
+      "$PV = nRT$",
+      "$PV = \\frac{nRT}{2}$",
+      "$P = \\frac{nRT}{V}$",
+      "Both A and C"
+    ],
+    "answer_index": 3
+  },
+  {
+    "question": "What is the formula for the pH of a solution?",
+    "options": [
+      "$pH = -\\log[H^+]$",
+      "$pH = \\log[H^+]$",
+      "$pH = -\\ln[H^+]$",
+      "$pH = \\frac{1}{[H^+]}$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "The rate law for a first-order reaction is:",
+    "options": [
+      "$\\frac{d[A]}{dt} = -k[A]$",
+      "$\\frac{d[A]}{dt} = -k[A]^2$",
+      "$\\frac{d[A]}{dt} = -k$",
+      "$\\frac{d[A]}{dt} = k[A]$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "What is the Henderson-Hasselbalch equation?",
+    "options": [
+      "$pH = pK_a + \\log\\frac{[A^-]}{[HA]}$",
+      "$pH = pK_a - \\log\\frac{[A^-]}{[HA]}$",
+      "$pH = -\\log K_a$",
+      "$pH = pK_a + [A^-]$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "The Nernst equation is:",
+    "options": [
+      "$E = E^0 - \\frac{RT}{nF}\\ln Q$",
+      "$E = E^0 + \\frac{RT}{nF}\\ln Q$",
+      "$E = \\frac{RT}{nF}\\ln Q$",
+      "$E = E^0 - RT\\ln Q$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "What is the formula for the equilibrium constant?",
+    "options": [
+      "$K = \\frac{[C]^c[D]^d}{[A]^a[B]^b}$",
+      "$K = [C][D] - [A][B]$",
+      "$K = \\frac{[A][B]}{[C][D]}$",
+      "$K = [A] + [B] - [C] - [D]$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "The Arrhenius equation is:",
+    "options": [
+      "$k = Ae^{-E_a/RT}$",
+      "$k = A + E_a/RT$",
+      "$k = \\frac{A}{E_a/RT}$",
+      "$k = AE_a/RT$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "What is the formula for molarity?",
+    "options": [
+      "$M = \\frac{n}{V}$",
+      "$M = \\frac{m}{V}$",
+      "$M = nV$",
+      "$M = \\frac{V}{n}$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "The mean of a dataset is:",
+    "options": [
+      "$\\mu = \\frac{\\sum x_i}{n}$",
+      "$\\mu = \\sqrt{\\frac{\\sum x_i^2}{n}}$",
+      "$\\mu = \\frac{\\sum (x_i - \\bar{x})^2}{n}$",
+      "$\\mu = \\sum x_i$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "What is the formula for standard deviation?",
+    "options": [
+      "$\\sigma = \\sqrt{\\frac{\\sum (x_i - \\mu)^2}{n}}$",
+      "$\\sigma = \\frac{\\sum (x_i - \\mu)^2}{n}$",
+      "$\\sigma = \\frac{\\sum x_i}{n}$",
+      "$\\sigma = \\sum (x_i - \\mu)^2$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "The probability density function of a normal distribution is:",
+    "options": [
+      "$f(x) = \\frac{1}{\\sigma\\sqrt{2\\pi}}e^{-\\frac{(x-\\mu)^2}{2\\sigma^2}}$",
+      "$f(x) = \\frac{1}{\\sqrt{2\\pi}}e^{-x^2/2}$",
+      "$f(x) = \\frac{\\mu}{\\sigma}e^{-x}$",
+      "$f(x) = \\frac{1}{\\sigma}e^{-\\mu x}$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "What is the formula for the correlation coefficient?",
+    "options": [
+      "$r = \\frac{\\sum (x_i - \\bar{x})(y_i - \\bar{y})}{\\sqrt{\\sum (x_i - \\bar{x})^2 \\sum (y_i - \\bar{y})^2}}$",
+      "$r = \\frac{\\sum x_i y_i}{n}$",
+      "$r = \\frac{\\bar{x}\\bar{y}}{\\sigma_x \\sigma_y}$",
+      "$r = \\sum (x_i - y_i)^2$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "The chi-square test statistic is:",
+    "options": [
+      "$\\chi^2 = \\sum \\frac{(O_i - E_i)^2}{E_i}$",
+      "$\\chi^2 = \\sum (O_i - E_i)^2$",
+      "$\\chi^2 = \\frac{\\sum O_i}{\\sum E_i}$",
+      "$\\chi^2 = \\sum O_i - \\sum E_i$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "What is the t-test statistic formula?",
+    "options": [
+      "$t = \\frac{\\bar{x} - \\mu}{s/\\sqrt{n}}$",
+      "$t = \\frac{\\bar{x} - \\mu}{\\sigma}$",
+      "$t = \\frac{\\bar{x}}{s}$",
+      "$t = \\bar{x} - \\mu$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "The binomial probability formula is:",
+    "options": [
+      "$P(X = k) = \\binom{n}{k}p^k(1-p)^{n-k}$",
+      "$P(X = k) = \\frac{n!}{k!}p^k$",
+      "$P(X = k) = np^k$",
+      "$P(X = k) = \\frac{p^k}{k!}$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "What is Bayes' theorem?",
+    "options": [
+      "$P(A|B) = \\frac{P(B|A)P(A)}{P(B)}$",
+      "$P(A|B) = P(A)P(B)$",
+      "$P(A|B) = \\frac{P(A)}{P(B)}$",
+      "$P(A|B) = P(B|A)$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "The variance formula is:",
+    "options": [
+      "$\\sigma^2 = \\frac{\\sum (x_i - \\mu)^2}{n}$",
+      "$\\sigma^2 = \\sum (x_i - \\mu)$",
+      "$\\sigma^2 = \\frac{\\sum x_i^2}{n}$",
+      "$\\sigma^2 = \\sqrt{\\sum (x_i - \\mu)^2}$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "What is the Z-score formula?",
+    "options": [
+      "$Z = \\frac{x - \\mu}{\\sigma}$",
+      "$Z = \\frac{\\mu - x}{\\sigma}$",
+      "$Z = x - \\mu$",
+      "$Z = \\frac{x}{\\sigma}$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "Evaluate: $$ \\int_0^{\\pi} \\sin x \\, dx $$",
+    "options": ["$2$", "$1$", "$0$", "$\\pi$"],
+    "answer_index": 0
+  },
+  {
+    "question": "What is the derivative of $$ \\ln(x) $$?",
+    "options": ["$\\frac{1}{x}$", "$x$", "$\\ln(x)$", "$e^x$"],
+    "answer_index": 0
+  },
+  {
+    "question": "Find the limit: $$ \\lim_{x \\to \\infty} \\frac{2x^2 + 3x}{x^2 + 1} $$",
+    "options": ["$2$", "$3$", "$\\infty$", "$0$"],
+    "answer_index": 0
+  },
+  {
+    "question": "What is the sum of the geometric series: $$ \\sum_{n=0}^{\\infty} ar^n $$ for $|r| < 1$?",
+    "options": [
+      "$\\frac{a}{1-r}$",
+      "$\\frac{a}{r-1}$",
+      "$\\frac{1-r}{a}$",
+      "$a(1-r)$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "The Laplace transform of $$ f(t) = t $$:",
+    "options": ["$\\frac{1}{s^2}$", "$\\frac{1}{s}$", "$s$", "$s^2$"],
+    "answer_index": 0
+  },
+  {
+    "question": "What is the curl of vector field $$ \\vec{F} = (P, Q, R) $$?",
+    "options": [
+      "$\\nabla \\times \\vec{F} = \\left(\\frac{\\partial R}{\\partial y} - \\frac{\\partial Q}{\\partial z}, \\frac{\\partial P}{\\partial z} - \\frac{\\partial R}{\\partial x}, \\frac{\\partial Q}{\\partial x} - \\frac{\\partial P}{\\partial y}\\right)$",
+      "$\\nabla \\cdot \\vec{F}$",
+      "$\\nabla \\vec{F}$",
+      "$\\vec{F} \\times \\nabla$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "The divergence of $$ \\vec{F} = (P, Q, R) $$ is:",
+    "options": [
+      "$\\nabla \\cdot \\vec{F} = \\frac{\\partial P}{\\partial x} + \\frac{\\partial Q}{\\partial y} + \\frac{\\partial R}{\\partial z}$",
+      "$\\nabla \\times \\vec{F}$",
+      "$|\\vec{F}|$",
+      "$\\vec{F} \\cdot \\vec{F}$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "What is Green's theorem?",
+    "options": [
+      "$\\oint_C (P dx + Q dy) = \\iint_D \\left(\\frac{\\partial Q}{\\partial x} - \\frac{\\partial P}{\\partial y}\\right) dA$",
+      "$\\oint_C \\vec{F} \\cdot d\\vec{r} = \\iint_D \\nabla \\times \\vec{F} \\cdot d\\vec{A}$",
+      "$\\iint_D f dA = \\oint_C f ds$",
+      "$\\nabla^2 f = 0$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "The formula for electric potential energy is:",
+    "options": [
+      "$U = \\frac{kq_1q_2}{r}$",
+      "$U = qV$",
+      "$U = \\frac{1}{2}CV^2$",
+      "All of the above"
+    ],
+    "answer_index": 3
+  },
+  {
+    "question": "What is Faraday's law of electromagnetic induction?",
+    "options": [
+      "$\\mathcal{E} = -\\frac{d\\Phi_B}{dt}$",
+      "$\\mathcal{E} = BLv$",
+      "$\\mathcal{E} = IR$",
+      "$\\mathcal{E} = \\frac{V}{R}$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "The formula for magnetic force on a moving charge is:",
+    "options": [
+      "$\\vec{F} = q\\vec{v} \\times \\vec{B}$",
+      "$\\vec{F} = q\\vec{E}$",
+      "$\\vec{F} = I\\vec{L} \\times \\vec{B}$",
+      "$\\vec{F} = \\frac{mv^2}{r}$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "What is the formula for capacitance?",
+    "options": [
+      "$C = \\frac{Q}{V}$",
+      "$C = \\frac{V}{Q}$",
+      "$C = QV$",
+      "$C = \\frac{1}{QV}$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "The energy stored in a capacitor is:",
+    "options": [
+      "$U = \\frac{1}{2}CV^2$",
+      "$U = CV$",
+      "$U = \\frac{CV^2}{2}$",
+      "$U = 2CV^2$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "What is the formula for the period of a simple pendulum?",
+    "options": [
+      "$T = 2\\pi\\sqrt{\\frac{L}{g}}$",
+      "$T = 2\\pi\\sqrt{\\frac{g}{L}}$",
+      "$T = \\sqrt{\\frac{L}{g}}$",
+      "$T = \\frac{2\\pi L}{g}$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "The formula for escape velocity is:",
+    "options": [
+      "$v_e = \\sqrt{\\frac{2GM}{r}}$",
+      "$v_e = \\sqrt{\\frac{GM}{r}}$",
+      "$v_e = \\frac{2GM}{r}$",
+      "$v_e = \\sqrt{\\frac{GM}{2r}}$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "What is the de Broglie wavelength formula?",
+    "options": [
+      "$\\lambda = \\frac{h}{p}$",
+      "$\\lambda = \\frac{p}{h}$",
+      "$\\lambda = hp$",
+      "$\\lambda = \\frac{h}{mv}$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "The uncertainty principle states:",
+    "options": [
+      "$\\Delta x \\Delta p \\geq \\frac{\\hbar}{2}$",
+      "$\\Delta x \\Delta p = \\hbar$",
+      "$\\Delta x + \\Delta p \\geq \\hbar$",
+      "$\\Delta x \\Delta p \\leq \\hbar$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "What is the formula for the half-life of a radioactive substance?",
+    "options": [
+      "$t_{1/2} = \\frac{\\ln 2}{\\lambda}$",
+      "$t_{1/2} = \\frac{\\lambda}{\\ln 2}$",
+      "$t_{1/2} = \\lambda \\ln 2$",
+      "$t_{1/2} = \\frac{1}{\\lambda}$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "The Stefan-Boltzmann law is:",
+    "options": [
+      "$j = \\sigma T^4$",
+      "$j = \\sigma T^2$",
+      "$j = \\frac{\\sigma}{T^4}$",
+      "$j = \\sigma T$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "What is the formula for the Gibbs free energy?",
+    "options": ["$G = H - TS$", "$G = H + TS$", "$G = U - TS$", "$G = H - T$"],
+    "answer_index": 0
+  },
+  {
+    "question": "The van der Waals equation is:",
+    "options": [
+      "$\\left(P + \\frac{a}{V^2}\\right)(V - b) = RT$",
+      "$PV = RT + a$",
+      "$P(V + a) = RT$",
+      "$(P - a)(V + b) = RT$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "What is the formula for the rate constant of a second-order reaction?",
+    "options": [
+      "$\\frac{1}{[A]} = kt + \\frac{1}{[A]_0}$",
+      "$\\ln[A] = -kt + \\ln[A]_0$",
+      "$[A] = [A]_0 - kt$",
+      "$[A] = [A]_0 e^{-kt}$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "The Clausius-Clapeyron equation is:",
+    "options": [
+      "$\\frac{dP}{dT} = \\frac{\\Delta H_{vap}}{T\\Delta V}$",
+      "$\\ln P = -\\frac{\\Delta H_{vap}}{RT} + C$",
+      "$P = P_0 e^{-\\Delta H/RT}$",
+      "$\\frac{P_2}{P_1} = \\frac{T_2}{T_1}$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "What is the formula for osmotic pressure?",
+    "options": [
+      "$\\Pi = iMRT$",
+      "$\\Pi = MRT$",
+      "$\\Pi = \\frac{RT}{M}$",
+      "$\\Pi = \\frac{M}{RT}$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "The Beer-Lambert law is:",
+    "options": [
+      "$A = \\epsilon bc$",
+      "$A = \\frac{\\epsilon b}{c}$",
+      "$A = \\epsilon + bc$",
+      "$A = \\frac{bc}{\\epsilon}$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "What is the formula for the enthalpy of formation?",
+    "options": [
+      "$\\Delta H_f^0 = \\sum \\Delta H_f^0(products) - \\sum \\Delta H_f^0(reactants)$",
+      "$\\Delta H_f^0 = \\sum \\Delta H_f^0(reactants) - \\sum \\Delta H_f^0(products)$",
+      "$\\Delta H_f^0 = H_{products} + H_{reactants}$",
+      "$\\Delta H_f^0 = \\frac{H_{products}}{H_{reactants}}$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "The formula for the confidence interval of the mean is:",
+    "options": [
+      "$\\bar{x} \\pm z_{\\alpha/2} \\frac{\\sigma}{\\sqrt{n}}$",
+      "$\\bar{x} \\pm z_{\\alpha/2} \\sigma$",
+      "$\\bar{x} \\pm \\frac{\\sigma}{\\sqrt{n}}$",
+      "$\\bar{x} \\pm z_{\\alpha/2} \\sqrt{n}$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "What is the formula for the F-statistic in ANOVA?",
+    "options": [
+      "$F = \\frac{MSB}{MSW}$",
+      "$F = \\frac{MSW}{MSB}$",
+      "$F = MSB - MSW$",
+      "$F = MSB + MSW$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "The Poisson probability formula is:",
+    "options": [
+      "$P(X = k) = \\frac{\\lambda^k e^{-\\lambda}}{k!}$",
+      "$P(X = k) = \\frac{\\lambda^k}{k!}$",
+      "$P(X = k) = \\lambda^k e^{-\\lambda}$",
+      "$P(X = k) = \\frac{e^{-\\lambda}}{k!}$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "What is the formula for the coefficient of determination?",
+    "options": [
+      "$R^2 = \\frac{SSR}{SST}$",
+      "$R^2 = \\frac{SSE}{SST}$",
+      "$R^2 = \\frac{SST}{SSR}$",
+      "$R^2 = 1 - \\frac{SSR}{SST}$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "The exponential distribution probability density function is:",
+    "options": [
+      "$f(x) = \\lambda e^{-\\lambda x}$",
+      "$f(x) = e^{-\\lambda x}$",
+      "$f(x) = \\frac{1}{\\lambda} e^{-x/\\lambda}$",
+      "$f(x) = \\lambda x e^{-\\lambda x}$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "What is the formula for the standard error of the mean?",
+    "options": [
+      "$SE = \\frac{\\sigma}{\\sqrt{n}}$",
+      "$SE = \\frac{\\sigma}{n}$",
+      "$SE = \\sigma \\sqrt{n}$",
+      "$SE = \\frac{\\sqrt{n}}{\\sigma}$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "The hypergeometric probability formula is:",
+    "options": [
+      "$P(X = k) = \\frac{\\binom{K}{k}\\binom{N-K}{n-k}}{\\binom{N}{n}}$",
+      "$P(X = k) = \\binom{n}{k}p^k(1-p)^{n-k}$",
+      "$P(X = k) = \\frac{\\lambda^k e^{-\\lambda}}{k!}$",
+      "$P(X = k) = \\frac{1}{n}$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "What is the formula for the gamma function?",
+    "options": [
+      "$\\Gamma(n) = \\int_0^{\\infty} t^{n-1} e^{-t} dt$",
+      "$\\Gamma(n) = n!$",
+      "$\\Gamma(n) = \\frac{1}{n!}$",
+      "$\\Gamma(n) = \\sqrt{2\\pi n}$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "The beta distribution probability density function is:",
+    "options": [
+      "$f(x) = \\frac{x^{\\alpha-1}(1-x)^{\\beta-1}}{B(\\alpha,\\beta)}$",
+      "$f(x) = \\frac{\\alpha \\beta}{x^{\\alpha+1}}$",
+      "$f(x) = \\alpha x^{\\alpha-1}$",
+      "$f(x) = \\frac{1}{\\alpha + \\beta}$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "What is the formula for the moment generating function?",
+    "options": [
+      "$M_X(t) = E[e^{tX}]$",
+      "$M_X(t) = E[X^t]$",
+      "$M_X(t) = e^{tE[X]}$",
+      "$M_X(t) = tE[X]$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "The Weibull distribution probability density function is:",
+    "options": [
+      "$f(x) = \\frac{k}{\\lambda}\\left(\\frac{x}{\\lambda}\\right)^{k-1}e^{-(x/\\lambda)^k}$",
+      "$f(x) = \\lambda e^{-\\lambda x}$",
+      "$f(x) = \\frac{1}{\\sigma\\sqrt{2\\pi}}e^{-(x-\\mu)^2/2\\sigma^2}$",
+      "$f(x) = \\frac{\\lambda^k x^{k-1} e^{-\\lambda x}}{\\Gamma(k)}$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "What is the Central Limit Theorem formula for the sampling distribution?",
+    "options": [
+      "$\\bar{X} \\sim N\\left(\\mu, \\frac{\\sigma^2}{n}\\right)$",
+      "$\\bar{X} \\sim N(\\mu, \\sigma^2)$",
+      "$\\bar{X} \\sim N(0, 1)$",
+      "$\\bar{X} \\sim N(n\\mu, n\\sigma^2)$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "The formula for the likelihood ratio test statistic is:",
+    "options": [
+      "$\\Lambda = \\frac{L(\\theta_0)}{L(\\hat{\\theta})}$",
+      "$\\Lambda = L(\\hat{\\theta}) - L(\\theta_0)$",
+      "$\\Lambda = \\frac{L(\\hat{\\theta})}{L(\\theta_0)}$",
+      "$\\Lambda = \\ln L(\\hat{\\theta}) - \\ln L(\\theta_0)$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "What is the formula for the Cramér-Rao lower bound?",
+    "options": [
+      "$\\text{Var}(\\hat{\\theta}) \\geq \\frac{1}{I(\\theta)}$",
+      "$\\text{Var}(\\hat{\\theta}) \\leq I(\\theta)$",
+      "$\\text{Var}(\\hat{\\theta}) = I(\\theta)$",
+      "$\\text{Var}(\\hat{\\theta}) \\geq I(\\theta)$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "The formula for the Akaike Information Criterion is:",
+    "options": [
+      "$AIC = 2k - 2\\ln(L)$",
+      "$AIC = k + \\ln(L)$",
+      "$AIC = 2\\ln(L) - k$",
+      "$AIC = k - \\ln(L)$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "What is the formula for the Bayesian Information Criterion?",
+    "options": [
+      "$BIC = k\\ln(n) - 2\\ln(L)$",
+      "$BIC = 2k - 2\\ln(L)$",
+      "$BIC = k + \\ln(n)$",
+      "$BIC = \\ln(n) - \\ln(L)$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "The formula for the Durbin-Watson test statistic is:",
+    "options": [
+      "$DW = \\frac{\\sum_{t=2}^n (e_t - e_{t-1})^2}{\\sum_{t=1}^n e_t^2}$",
+      "$DW = \\sum_{t=1}^n e_t^2$",
+      "$DW = \\frac{\\sum_{t=1}^n e_t^2}{n}$",
+      "$DW = \\sum_{t=2}^n (e_t - e_{t-1})^2$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "What is the formula for the Jarque-Bera test statistic?",
+    "options": [
+      "$JB = \\frac{n}{6}\\left(S^2 + \\frac{(K-3)^2}{4}\\right)$",
+      "$JB = S^2 + K^2$",
+      "$JB = \\frac{S^2 + K^2}{n}$",
+      "$JB = n(S^2 + K^2)$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "The formula for the Kolmogorov-Smirnov test statistic is:",
+    "options": [
+      "$D = \\max_x |F_n(x) - F(x)|$",
+      "$D = \\sum |F_n(x) - F(x)|$",
+      "$D = \\frac{1}{n}\\sum |F_n(x) - F(x)|$",
+      "$D = \\sqrt{\\sum |F_n(x) - F(x)|^2}$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "What is the formula for the Mann-Whitney U test statistic?",
+    "options": [
+      "$U = n_1 n_2 + \\frac{n_1(n_1+1)}{2} - R_1$",
+      "$U = R_1 - R_2$",
+      "$U = \\frac{R_1 + R_2}{n_1 + n_2}$",
+      "$U = n_1 + n_2 - R_1$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "The formula for the Wilcoxon signed-rank test statistic is:",
+    "options": [
+      "$W = \\sum_{i=1}^n \\text{sgn}(x_i) \\cdot R_i$",
+      "$W = \\sum_{i=1}^n R_i$",
+      "$W = \\sum_{i=1}^n x_i \\cdot R_i$",
+      "$W = \\sum_{i=1}^n |x_i| \\cdot R_i$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "What is the formula for the Kruskal-Wallis test statistic?",
+    "options": [
+      "$H = \\frac{12}{n(n+1)}\\sum_{i=1}^k \\frac{R_i^2}{n_i} - 3(n+1)$",
+      "$H = \\sum_{i=1}^k \\frac{R_i^2}{n_i}$",
+      "$H = \\frac{\\sum R_i^2}{n}$",
+      "$H = \\sum R_i - 3n$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "The formula for Spearman's rank correlation coefficient is:",
+    "options": [
+      "$\\rho = 1 - \\frac{6\\sum d_i^2}{n(n^2-1)}$",
+      "$\\rho = \\frac{\\sum d_i^2}{n}$",
+      "$\\rho = 1 - \\frac{\\sum d_i^2}{n}$",
+      "$\\rho = \\frac{6\\sum d_i^2}{n(n^2-1)}$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "What is the formula for Kendall's tau correlation coefficient?",
+    "options": [
+      "$\\tau = \\frac{2(C - D)}{n(n-1)}$",
+      "$\\tau = \\frac{C - D}{C + D}$",
+      "$\\tau = \\frac{C + D}{n}$",
+      "$\\tau = C - D$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "The formula for the logistic regression odds ratio is:",
+    "options": [
+      "$OR = e^{\\beta}$",
+      "$OR = \\frac{1}{e^{\\beta}}$",
+      "$OR = \\beta$",
+      "$OR = \\ln(\\beta)$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "What is the formula for the Cox proportional hazards model?",
+    "options": [
+      "$h(t|x) = h_0(t)e^{\\beta x}$",
+      "$h(t|x) = h_0(t) + \\beta x$",
+      "$h(t|x) = \\frac{h_0(t)}{e^{\\beta x}}$",
+      "$h(t|x) = h_0(t)\\beta x$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "The formula for the Kaplan-Meier survival function is:",
+    "options": [
+      "$\\hat{S}(t) = \\prod_{t_i \\leq t} \\left(1 - \\frac{d_i}{n_i}\\right)$",
+      "$\\hat{S}(t) = \\sum_{t_i \\leq t} \\frac{d_i}{n_i}$",
+      "$\\hat{S}(t) = 1 - \\frac{d_i}{n_i}$",
+      "$\\hat{S}(t) = e^{-\\lambda t}$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "What is the formula for the hazard rate in survival analysis?",
+    "options": [
+      "$h(t) = \\frac{f(t)}{S(t)}$",
+      "$h(t) = f(t) \\cdot S(t)$",
+      "$h(t) = \\frac{S(t)}{f(t)}$",
+      "$h(t) = 1 - S(t)$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "The formula for the log-rank test statistic is:",
+    "options": [
+      "$\\chi^2 = \\frac{(O_1 - E_1)^2}{V_1}$",
+      "$\\chi^2 = O_1 - E_1$",
+      "$\\chi^2 = \\frac{O_1}{E_1}$",
+      "$\\chi^2 = (O_1 - E_1)^2$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "What is the formula for the area under the ROC curve (AUC)?",
+    "options": [
+      "$AUC = \\int_0^1 \\text{TPR}(\\text{FPR}^{-1}(t)) dt$",
+      "$AUC = \\text{TPR} \\times \\text{FPR}$",
+      "$AUC = \\text{TPR} - \\text{FPR}$",
+      "$AUC = \\frac{\\text{TPR}}{\\text{FPR}}$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "The formula for the Gini coefficient is:",
+    "options": [
+      "$G = \\frac{\\sum_{i=1}^n \\sum_{j=1}^n |x_i - x_j|}{2n^2\\bar{x}}$",
+      "$G = \\frac{\\sum x_i}{n}$",
+      "$G = \\frac{\\max(x) - \\min(x)}{\\bar{x}}$",
+      "$G = \\frac{\\sigma^2}{\\bar{x}^2}$"
+    ],
+    "answer_index": 0
+  },
+  {
+    "question": "What is the formula for the Theil index?",
+    "options": [
+      "$T = \\frac{1}{n}\\sum_{i=1}^n \\frac{x_i}{\\bar{x}} \\ln\\left(\\frac{x_i}{\\bar{x}}\\right)$",
+      "$T = \\sum_{i=1}^n x_i \\ln(x_i)$",
+      "$T = \\ln\\left(\\frac{\\sum x_i}{n}\\right)$",
+      "$T = \\frac{\\sum x_i \\ln(x_i)}{\\sum x_i}$"
+    ],
+    "answer_index": 0
+  }
+]

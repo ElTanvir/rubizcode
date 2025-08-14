@@ -1,0 +1,15 @@
+{
+  "@@locale": "en",
+  "appBarTitle": "RubizCode",
+  "@appBarTitle": {
+    "description": "The title shown in the app bar"
+  },
+  "quizButton": "Start Quiz",
+  "@quizButton": {
+    "description": "Button text to start the quiz"
+  },
+  "leaderboardButton": "LeaderBoard",
+  "@leaderboardButton": {
+    "description": "Button text to view the leaderboard"
+  }
+}
